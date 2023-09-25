@@ -68,6 +68,9 @@ namespace Conditionals_HUD_v1._2
             cleanHUD();
             ShowHUD();
             Console.WriteLine("With the battle won and the enemy in retreat, Sarah had saved his city. She looked at the artifact, which had saved her life and given her the power to protect those she loved. She knew her life as a librarian was over; she had become the city's reluctant hero.\r\n\r\n\"The Reluctant Warrior\" was born from an ordinary woman's desperation but transformed into an extraordinary tale of courage, sacrifice, and newfound strength in the face of adversity.");
+            Console.WriteLine("");
+            Console.WriteLine("Press any button to finish story");
+            Console.ReadKey(true);
         }
         static void cleanHUD()
         {
@@ -83,8 +86,8 @@ namespace Conditionals_HUD_v1._2
 
             if (playerInput == 0)
             {
-                weapon = "shield";
-                multiplier = 1.3f;
+                weapon = "stick";
+                multiplier = 1.0f;
             }
             else if (playerInput == 1) 
             {
