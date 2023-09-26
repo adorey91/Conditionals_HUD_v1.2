@@ -148,19 +148,19 @@ namespace Conditionals_HUD_v1._2
                 health = 0;
                 lives = lives - 1;
             }
-            else if (health > 0 && health < 15)
+            else if ((health > 0) && (health <= 15))
             {
                 Console.WriteLine("Imminent Danger");
             }
-            else if (health >15 && health <50)
+            else if ((health >15) && (health <=50))
             {
                 Console.WriteLine("Badly Hurt");
             }    
-            else if (health >50 && health <75)
+            else if ((health >50 && health <=75))
             {
                 Console.WriteLine("Hurt");
             }
-            else if(health >75 && health <100)
+            else if ((health >75 && health <100))
             {
                 Console.WriteLine("Healthy");
             }
